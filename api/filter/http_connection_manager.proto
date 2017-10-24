@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package envoy.api.v2.filter;
+option go_package = "filter";
 
 import "api/base.proto";
 import "api/protocol.proto";
